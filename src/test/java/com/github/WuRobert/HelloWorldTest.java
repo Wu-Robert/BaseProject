@@ -7,8 +7,8 @@ import static org.junit.Assert.*;
 public class HelloWorldTest {
     @Test
     public void fcu() throws Exception {
-        String o="是";
-
+        HelloWorld a=new HelloWorld();
+        assertEquals(a.fcu(6),"是");
     }
 
 }
